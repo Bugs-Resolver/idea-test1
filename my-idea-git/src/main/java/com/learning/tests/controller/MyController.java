@@ -9,6 +9,7 @@ public class MyController {
     @GetMapping("/test1")
     public String test1(){
         System.out.println("working");
+        System.out.println("update1");
         return "success";
     }
 }
