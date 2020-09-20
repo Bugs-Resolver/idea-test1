@@ -10,6 +10,7 @@ public class MyController {
     public String test1(){
         System.out.println("working");
         System.out.println("update1");
+        System.out.println("update2");
         return "success";
     }
 }
